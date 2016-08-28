@@ -1,0 +1,55 @@
+/* 
+    Document   : style
+    Created on : Nov 20, 2013, 9:12:22 PM
+    Author     : Shaon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+#wrapper{
+    width: 1050px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+header{
+  width: 1050px;
+  height: 150px;
+  background-color: aqua;
+  margin: 0;
+  float: left;
+}
+#content{
+    width: 1050px;
+    height: 455px;
+    margin: 0;
+    background-color:cornsilk;
+    float: left;
+}
+#a_content{
+    width: 1050px;
+    height: 455px;
+    margin: 0;
+    background-color:cornsilk;
+    float: left;
+}
+#a_content table td{
+   padding: 15px;
+   color: red;
+}
+footer{
+    width: 1050px;
+    height: 45px;
+    background-color: aqua;
+    margin: 0;
+    float: left;
+}
